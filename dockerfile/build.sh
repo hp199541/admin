@@ -1,6 +1,6 @@
 REGISTRY=registry.sensetime.com
 PROJECT=stmed-llm
-IMAGE=med-health-fe
+IMAGE=med-consult-mgt-fe
 TAG=dev_$(date +%Y%m%d_%H%M)
 if [ -n "$1" ] ; then
     TAG=$1
